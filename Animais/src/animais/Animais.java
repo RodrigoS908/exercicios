@@ -12,9 +12,34 @@ package animais;
 public class Animais {
     String nome;
     int patas;
-    public static void main(String[] args) {
-        Gato g= new Gato();
-        Cachorro c=new Cachorro();
-    }
     
+    public static void main(String[] args){
+        System.out.println("oi");
+    }
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getPatas() {
+        return patas;
+    }
+
+    public void setPatas(int patas) {
+        this.patas = patas;
+    }
+
+    public void Animal(){
+        
+    }
+    public void animal(String nome){
+        this.nome=nome;
+    }
+    public void animal(String nome, int patas){
+        this.nome=nome;
+        this.patas=4;
+    }
 }

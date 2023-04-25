@@ -10,5 +10,8 @@ package animais;
  * @author 82318900
  */
 public class Mamifero extends Animais{
-    
+    public void mamifero(String nome, int patas){
+        this.nome=nome;
+        this.patas=4;
+    }
 }
